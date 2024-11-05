@@ -1,0 +1,1074 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "106a818e-fad4-4f90-8e33-f3df874060d0")
+	(paper "A4")
+	(title_block
+		(title "xDuinoRail - LocDecoder - Development Kit")
+		(date "2024-10-09")
+		(rev "v0.2")
+		(company "Chatelain Engineering, Bern - CH")
+	)
+	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:LED"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 59.69 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0fa5ae66-c337-4dd4-90bf-f8fecad923c6")
+	)
+	(junction
+		(at 52.07 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5140e144-29bb-4b51-a61b-77fce6ab8137")
+	)
+	(junction
+		(at 55.88 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e7ce758-3640-4ad9-88cf-2d07e1434be1")
+	)
+	(junction
+		(at 55.88 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6a523b7-f3fc-46e7-9830-1107ca143a36")
+	)
+	(wire
+		(pts
+			(xy 52.07 58.42) (xy 52.07 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11c4dbd4-7632-4900-9077-b5712d998275")
+	)
+	(wire
+		(pts
+			(xy 52.07 49.53) (xy 52.07 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "145f5ca2-68e4-412c-98dc-8b58c89fefd8")
+	)
+	(wire
+		(pts
+			(xy 59.69 49.53) (xy 59.69 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15c18aec-8fd1-4755-b753-640600a2c1a1")
+	)
+	(wire
+		(pts
+			(xy 59.69 60.96) (xy 76.2 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18173743-15e2-4d20-811b-d14cfa3103f9")
+	)
+	(wire
+		(pts
+			(xy 55.88 38.1) (xy 76.2 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d33bbb1-f3ae-40fe-953f-77e06987d2e5")
+	)
+	(wire
+		(pts
+			(xy 52.07 49.53) (xy 55.88 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56226f72-e0e1-410c-9bc6-8fee6111eac2")
+	)
+	(wire
+		(pts
+			(xy 31.75 38.1) (xy 55.88 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6418af15-f3c6-4d9c-b943-6e890d2cc7dc")
+	)
+	(wire
+		(pts
+			(xy 76.2 38.1) (xy 76.2 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65014c96-bf2a-4310-8014-63f2c1d6f6c9")
+	)
+	(wire
+		(pts
+			(xy 59.69 58.42) (xy 59.69 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f3c50c5-1f53-4373-99b7-8db1effbf42d")
+	)
+	(wire
+		(pts
+			(xy 55.88 49.53) (xy 55.88 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fe78a2f-a72d-44c9-b60a-292fb6195819")
+	)
+	(wire
+		(pts
+			(xy 55.88 38.1) (xy 55.88 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "897730df-7e58-4258-ad29-de238a7780cc")
+	)
+	(wire
+		(pts
+			(xy 76.2 52.07) (xy 76.2 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9686057a-cbe6-4f05-82dc-2e34247303e6")
+	)
+	(wire
+		(pts
+			(xy 52.07 60.96) (xy 59.69 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac03cb82-f830-4324-be02-9e97c8b09eb4")
+	)
+	(wire
+		(pts
+			(xy 31.75 60.96) (xy 52.07 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd81f21f-681e-4af3-b274-b5bfe71d3812")
+	)
+	(wire
+		(pts
+			(xy 55.88 49.53) (xy 59.69 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5cb5e37-c47a-445a-a335-8309d50921ef")
+	)
+	(label "DCC0"
+		(at 31.75 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3c6f787b-e890-4c36-b51a-3812647849d9")
+	)
+	(label "DCC1"
+		(at 31.75 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d8d15ed1-5925-4cd1-9958-0df0b790435c")
+	)
+	(hierarchical_label "DCC[0..1]"
+		(shape input)
+		(at 22.86 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "414a7868-e946-40f4-a9fd-484bcb83debc")
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 81.28 52.07 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "248cfd30-1876-4707-9447-b10600524569")
+		(property "Reference" "J101"
+			(at 83.82 52.0701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 83.82 49.5301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+			(at 81.28 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 81.28 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OLI_ID" "2P_EdgeReceptacle_PushPull-3.5mm"
+			(at 81.28 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6fd3179-4419-4bd0-a10a-b29bfce666a1")
+		)
+		(pin "2"
+			(uuid "2794ea3c-d307-4948-9ee3-f849fc53fd39")
+		)
+		(instances
+			(project "rails-connector-3_5mm"
+				(path "/106a818e-fad4-4f90-8e33-f3df874060d0"
+					(reference "J101")
+					(unit 1)
+				)
+				(path "/106a818e-fad4-4f90-8e33-f3df874060d0/ba5e50f0-9026-43d3-851c-77e23a24c489"
+					(reference "J201")
+					(unit 1)
+				)
+			)
+			(project "xDuinoRail-Xiao-MotorShield"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/80f815f4-dd5d-4dca-a1a3-11bef181be08"
+					(reference "J701")
+					(unit 1)
+				)
+			)
+			(project "rails-connector-3_5mm"
+				(path "/fb33ec4e-6596-45d2-a121-8d3475acd69a/b745bfdf-45d7-4591-801d-e6c649fee8ba"
+					(reference "J101")
+					(unit 1)
+				)
+				(path "/fb33ec4e-6596-45d2-a121-8d3475acd69a/b745bfdf-45d7-4591-801d-e6c649fee8ba/ba5e50f0-9026-43d3-851c-77e23a24c489"
+					(reference "J2701")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 55.88 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "54e25910-35be-4bce-bc7c-eec365499701")
+		(property "Reference" "R101"
+			(at 58.42 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 58.42 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 54.102 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 55.88 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 55.88 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OLI_ID" "10k_0805"
+			(at 55.88 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32523490-09ad-49dd-932f-291e5abb160f")
+		)
+		(pin "2"
+			(uuid "d9a77bd1-9760-4104-a84a-cb230759a4d6")
+		)
+		(instances
+			(project "rails-connector-3_5mm"
+				(path "/106a818e-fad4-4f90-8e33-f3df874060d0"
+					(reference "R101")
+					(unit 1)
+				)
+				(path "/106a818e-fad4-4f90-8e33-f3df874060d0/ba5e50f0-9026-43d3-851c-77e23a24c489"
+					(reference "R201")
+					(unit 1)
+				)
+			)
+			(project "xDuinoRail-Xiao-MotorShield"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/80f815f4-dd5d-4dca-a1a3-11bef181be08"
+					(reference "R701")
+					(unit 1)
+				)
+			)
+			(project "rails-connector-3_5mm"
+				(path "/fb33ec4e-6596-45d2-a121-8d3475acd69a/b745bfdf-45d7-4591-801d-e6c649fee8ba"
+					(reference "R101")
+					(unit 1)
+				)
+				(path "/fb33ec4e-6596-45d2-a121-8d3475acd69a/b745bfdf-45d7-4591-801d-e6c649fee8ba/ba5e50f0-9026-43d3-851c-77e23a24c489"
+					(reference "R2701")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 52.07 54.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8fc66f50-5518-4794-811e-04be7f642697")
+		(property "Reference" "D101"
+			(at 48.26 54.2925 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_YELLOW"
+			(at 48.26 51.7525 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 52.07 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 52.07 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 52.07 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OLI_ID" "LED-YELLOW_0805"
+			(at 52.07 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94429f04-ce99-4c64-9ac2-0251bac8ff3d")
+		)
+		(pin "2"
+			(uuid "9c09f1da-0c89-441e-b11e-8eec87a0b294")
+		)
+		(instances
+			(project "rails-connector-3_5mm"
+				(path "/106a818e-fad4-4f90-8e33-f3df874060d0"
+					(reference "D101")
+					(unit 1)
+				)
+				(path "/106a818e-fad4-4f90-8e33-f3df874060d0/ba5e50f0-9026-43d3-851c-77e23a24c489"
+					(reference "D201")
+					(unit 1)
+				)
+			)
+			(project "xDuinoRail-Xiao-MotorShield"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/80f815f4-dd5d-4dca-a1a3-11bef181be08"
+					(reference "D701")
+					(unit 1)
+				)
+			)
+			(project "rails-connector-3_5mm"
+				(path "/fb33ec4e-6596-45d2-a121-8d3475acd69a/b745bfdf-45d7-4591-801d-e6c649fee8ba"
+					(reference "D101")
+					(unit 1)
+				)
+				(path "/fb33ec4e-6596-45d2-a121-8d3475acd69a/b745bfdf-45d7-4591-801d-e6c649fee8ba/ba5e50f0-9026-43d3-851c-77e23a24c489"
+					(reference "D2701")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 59.69 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b0a796a6-f834-4897-9eaf-33b812ecc050")
+		(property "Reference" "D102"
+			(at 62.23 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_WHITE"
+			(at 62.23 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 59.69 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 59.69 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 59.69 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OLI_ID" "LED-WHITE_0805"
+			(at 59.69 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cdd7d672-796a-48ed-a0ce-0cad722ee020")
+		)
+		(pin "2"
+			(uuid "39ec31d9-f2f9-4917-8f5f-5b3e86d3273d")
+		)
+		(instances
+			(project "rails-connector-3_5mm"
+				(path "/106a818e-fad4-4f90-8e33-f3df874060d0"
+					(reference "D102")
+					(unit 1)
+				)
+				(path "/106a818e-fad4-4f90-8e33-f3df874060d0/ba5e50f0-9026-43d3-851c-77e23a24c489"
+					(reference "D202")
+					(unit 1)
+				)
+			)
+			(project "xDuinoRail-Xiao-MotorShield"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/80f815f4-dd5d-4dca-a1a3-11bef181be08"
+					(reference "D702")
+					(unit 1)
+				)
+			)
+			(project "rails-connector-3_5mm"
+				(path "/fb33ec4e-6596-45d2-a121-8d3475acd69a/b745bfdf-45d7-4591-801d-e6c649fee8ba"
+					(reference "D102")
+					(unit 1)
+				)
+				(path "/fb33ec4e-6596-45d2-a121-8d3475acd69a/b745bfdf-45d7-4591-801d-e6c649fee8ba/ba5e50f0-9026-43d3-851c-77e23a24c489"
+					(reference "D2702")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

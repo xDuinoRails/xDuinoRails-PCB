@@ -1,0 +1,1421 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "0ed6639a-cde6-4452-b9e1-77c370bade86")
+	(paper "A4")
+	(title_block
+		(title "xDuinoRail - LocDecoder - Development Kit")
+		(date "2024-10-09")
+		(rev "v0.2")
+		(company "Chatelain Engineering, Bern - CH")
+	)
+	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:C_Polarized"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Regulator_Linear:HT75xx-1-SOT89"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "HT75xx-1-SOT89"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+				(at 0 8.255 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.holtek.com/documents/10179/116711/HT75xx-1v250.pdf"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "100mA Low Dropout Voltage Regulator, Fixed Output, SOT89"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "100mA LDO Regulator Fixed Positive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?89*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "HT75xx-1-SOT89_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "HT75xx-1-SOT89_1_1"
+				(pin power_in line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 63.5 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07e08e10-7655-4181-aaf0-2aabfd750f1a")
+	)
+	(junction
+		(at 50.8 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ab37a07-f605-4b45-ab87-5543cc4cca0a")
+	)
+	(junction
+		(at 76.2 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c814dcb-ab8c-45a8-beba-3a060ee89bba")
+	)
+	(junction
+		(at 63.5 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56080ccf-f061-4c8c-a300-28e0ffe7b622")
+	)
+	(junction
+		(at 88.9 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f48be23-9e89-4f50-8b7a-688d58302b69")
+	)
+	(junction
+		(at 50.8 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a1cd5a1-cbac-499b-a8d7-956ced35d95d")
+	)
+	(wire
+		(pts
+			(xy 83.82 41.91) (xy 88.9 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13fbde8a-c112-4ea3-947b-26002eebd3d7")
+	)
+	(wire
+		(pts
+			(xy 76.2 49.53) (xy 76.2 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f60e118-e0c7-4999-aca0-b219cc2e0b7d")
+	)
+	(wire
+		(pts
+			(xy 50.8 53.34) (xy 63.5 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a162a64-a6eb-4e92-a66d-ebf5a472f26d")
+	)
+	(wire
+		(pts
+			(xy 76.2 53.34) (xy 88.9 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ee279d0-ecd8-47cd-8e77-e1c6d4b5e39b")
+	)
+	(wire
+		(pts
+			(xy 50.8 50.8) (xy 50.8 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "409c678e-3836-4352-9da6-1ab23d9c3c5c")
+	)
+	(wire
+		(pts
+			(xy 88.9 41.91) (xy 99.06 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "437bb5bb-f630-44a0-97ea-25dc9e8c8c54")
+	)
+	(wire
+		(pts
+			(xy 63.5 43.18) (xy 63.5 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "454550da-5fc7-4d78-b69d-3af2bfb06d17")
+	)
+	(wire
+		(pts
+			(xy 63.5 53.34) (xy 76.2 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47b6cee7-a7de-443d-b6b8-61abf94dca68")
+	)
+	(wire
+		(pts
+			(xy 50.8 41.91) (xy 50.8 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76f1626f-966e-4c7c-8511-36bc72551458")
+	)
+	(wire
+		(pts
+			(xy 50.8 41.91) (xy 63.5 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac02bb98-d35f-441d-8299-cdac9e4cd70c")
+	)
+	(wire
+		(pts
+			(xy 39.37 53.34) (xy 50.8 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac682786-0621-4709-bc44-232a708842dd")
+	)
+	(wire
+		(pts
+			(xy 88.9 41.91) (xy 88.9 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da0bd5e5-c49d-4546-beee-efcafd770643")
+	)
+	(wire
+		(pts
+			(xy 63.5 50.8) (xy 63.5 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e001f8f7-3c5c-4b29-9f97-0b72fe00f57d")
+	)
+	(wire
+		(pts
+			(xy 39.37 41.91) (xy 50.8 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec235ca6-f22e-4668-9586-fd9823934cff")
+	)
+	(wire
+		(pts
+			(xy 63.5 41.91) (xy 68.58 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f77337c8-91f3-4628-9314-55cd463040f1")
+	)
+	(wire
+		(pts
+			(xy 88.9 50.8) (xy 88.9 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f811fb14-8d8a-4a8b-9424-fb0ae75cb382")
+	)
+	(text "DC-DC voltage regulator 3.3V\n"
+		(exclude_from_sim no)
+		(at 61.976 27.686 0)
+		(effects
+			(font
+				(size 3.048 3.048)
+			)
+		)
+		(uuid "a76d4c3f-1db9-44fb-b638-4d14cd1e3899")
+	)
+	(hierarchical_label "U+"
+		(shape input)
+		(at 39.37 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "02d821b1-3752-4b7e-a368-48614de0f30b")
+	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 39.37 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "14abcc60-0c4a-4776-aff5-ffa397186009")
+	)
+	(hierarchical_label "+3V3"
+		(shape output)
+		(at 99.06 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a1e57174-c258-4b16-b97f-820ba2bc89fd")
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 88.9 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05e6b0df-0e6b-44dc-b14d-764be3f9e37d")
+		(property "Reference" "C102"
+			(at 92.71 44.831 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47uF"
+			(at 92.71 47.371 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 89.8652 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 88.9 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 88.9 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Frequency" ""
+			(at 88.9 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 88.9 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 88.9 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "C"
+			(at 88.9 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 88.9 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "rohs_cert_or_in_datasheet" ""
+			(at 88.9 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OLI_ID" "47uF_0805"
+			(at 88.9 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 88.9 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 88.9 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 88.9 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 88.9 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d98bf770-82f2-415c-bf52-20bbc0b0e1d6")
+		)
+		(pin "2"
+			(uuid "d102ecba-1f73-4d58-9bcf-0cb199d18f88")
+		)
+		(instances
+			(project "rails_power_dc-dc-ldo-3v3_100mA"
+				(path "/0ed6639a-cde6-4452-b9e1-77c370bade86"
+					(reference "C102")
+					(unit 1)
+				)
+				(path "/0ed6639a-cde6-4452-b9e1-77c370bade86/f74e307f-98ea-4a21-90fe-788ab4c41003"
+					(reference "C203")
+					(unit 1)
+				)
+			)
+			(project "central_railcom-power-source"
+				(path "/6d7aefd8-fcb8-4935-b99c-c7045c3b702f/a5aa2612-0bfe-49ce-a543-ccf125bffe47"
+					(reference "C402")
+					(unit 1)
+				)
+			)
+			(project "xDuinoRail-Arduino-RailcomDetect-Dev"
+				(path "/81b33966-136c-4d5d-8e55-9dddbbd3dbe5/be30761f-0228-4a45-9bf0-76f8e7dc5de2/74710df9-7e61-48be-b0f8-0d4cba0f15c2/a5aa2612-0bfe-49ce-a543-ccf125bffe47"
+					(reference "C1002")
+					(unit 1)
+				)
+			)
+			(project "centrale-railcom-feedback-duo"
+				(path "/e8f9fd83-27d4-40ee-a2c1-fd6356795d83/74710df9-7e61-48be-b0f8-0d4cba0f15c2/a5aa2612-0bfe-49ce-a543-ccf125bffe47"
+					(reference "C502")
+					(unit 1)
+				)
+			)
+			(project "xDuinoRail-Accessory-Dev"
+				(path "/fb33ec4e-6596-45d2-a121-8d3475acd69a/04faa6d4-33a6-453e-9edf-76276cac5673/f74e307f-98ea-4a21-90fe-788ab4c41003"
+					(reference "C503")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 50.8 46.99 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6954d688-dc5e-457b-a102-992fb74862ed")
+		(property "Reference" "C103"
+			(at 46.99 44.831 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47uF"
+			(at 46.99 47.371 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 49.8348 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 50.8 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 50.8 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Frequency" ""
+			(at 50.8 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 50.8 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 50.8 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "C"
+			(at 50.8 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 50.8 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "rohs_cert_or_in_datasheet" ""
+			(at 50.8 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OLI_ID" "47uF_0805"
+			(at 50.8 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 50.8 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 50.8 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 50.8 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 50.8 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b997c087-b4b3-4ceb-b013-3932355eaf32")
+		)
+		(pin "2"
+			(uuid "e73f5db5-3968-4454-afc9-aaabe33d428d")
+		)
+		(instances
+			(project "rails_power_dc-dc-ldo-3v3_100mA"
+				(path "/0ed6639a-cde6-4452-b9e1-77c370bade86"
+					(reference "C103")
+					(unit 1)
+				)
+				(path "/0ed6639a-cde6-4452-b9e1-77c370bade86/f74e307f-98ea-4a21-90fe-788ab4c41003"
+					(reference "C201")
+					(unit 1)
+				)
+			)
+			(project "xDuinoRail-Accessory-Dev"
+				(path "/fb33ec4e-6596-45d2-a121-8d3475acd69a/04faa6d4-33a6-453e-9edf-76276cac5673/f74e307f-98ea-4a21-90fe-788ab4c41003"
+					(reference "C501")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:HT75xx-1-SOT89")
+		(at 76.2 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a2c0364-ffab-46bc-987a-6984ecb0889b")
+		(property "Reference" "U101"
+			(at 76.2 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HT75xx-1-SOT89"
+			(at 76.2 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+			(at 76.2 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.holtek.com/documents/10179/116711/HT75xx-1v250.pdf"
+			(at 76.2 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100mA Low Dropout Voltage Regulator, Fixed Output, SOT89"
+			(at 76.2 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "dc=3.3"
+			(at 76.2 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "DC"
+			(at 76.2 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 76.2 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "3=+ 1=-"
+			(at 76.2 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OLI_ID" "HT7533-1_SOT-89-3"
+			(at 76.2 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "bb89f88c-c915-457a-84c4-e26d42bdd8aa")
+		)
+		(pin "1"
+			(uuid "acd6be09-a78e-42a7-8037-2c617553574e")
+		)
+		(pin "2"
+			(uuid "dbce81b3-d419-4f84-bee1-b1d78a34f95e")
+		)
+		(instances
+			(project "rails_power_dc-dc-ldo-3v3_100mA"
+				(path "/0ed6639a-cde6-4452-b9e1-77c370bade86"
+					(reference "U101")
+					(unit 1)
+				)
+				(path "/0ed6639a-cde6-4452-b9e1-77c370bade86/f74e307f-98ea-4a21-90fe-788ab4c41003"
+					(reference "U201")
+					(unit 1)
+				)
+			)
+			(project "central_railcom-power-source"
+				(path "/6d7aefd8-fcb8-4935-b99c-c7045c3b702f/a5aa2612-0bfe-49ce-a543-ccf125bffe47"
+					(reference "U401")
+					(unit 1)
+				)
+			)
+			(project "xDuinoRail-Arduino-RailcomDetect-Dev"
+				(path "/81b33966-136c-4d5d-8e55-9dddbbd3dbe5/be30761f-0228-4a45-9bf0-76f8e7dc5de2/74710df9-7e61-48be-b0f8-0d4cba0f15c2/a5aa2612-0bfe-49ce-a543-ccf125bffe47"
+					(reference "U1001")
+					(unit 1)
+				)
+			)
+			(project "centrale-railcom-feedback-duo"
+				(path "/e8f9fd83-27d4-40ee-a2c1-fd6356795d83/74710df9-7e61-48be-b0f8-0d4cba0f15c2/a5aa2612-0bfe-49ce-a543-ccf125bffe47"
+					(reference "U501")
+					(unit 1)
+				)
+			)
+			(project "xDuinoRail-Accessory-Dev"
+				(path "/fb33ec4e-6596-45d2-a121-8d3475acd69a/04faa6d4-33a6-453e-9edf-76276cac5673/f74e307f-98ea-4a21-90fe-788ab4c41003"
+					(reference "U501")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 63.5 46.99 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ac5d6138-7b3b-4e57-bcdb-d1de7e0c2c7a")
+		(property "Reference" "C101"
+			(at 59.69 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 59.69 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 62.5348 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 63.5 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 63.5 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Frequency" ""
+			(at 63.5 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 63.5 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 63.5 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "C"
+			(at 63.5 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 63.5 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "rohs_cert_or_in_datasheet" ""
+			(at 63.5 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OLI_ID" "1uF_0402"
+			(at 63.5 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 63.5 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 63.5 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e0787f4-5a9f-4ef4-a01e-34e9a322105c")
+		)
+		(pin "2"
+			(uuid "ef6089e8-843d-4c84-8369-8a0692105a3b")
+		)
+		(instances
+			(project "rails_power_dc-dc-ldo-3v3_100mA"
+				(path "/0ed6639a-cde6-4452-b9e1-77c370bade86"
+					(reference "C101")
+					(unit 1)
+				)
+				(path "/0ed6639a-cde6-4452-b9e1-77c370bade86/f74e307f-98ea-4a21-90fe-788ab4c41003"
+					(reference "C202")
+					(unit 1)
+				)
+			)
+			(project "central_railcom-power-source"
+				(path "/6d7aefd8-fcb8-4935-b99c-c7045c3b702f/a5aa2612-0bfe-49ce-a543-ccf125bffe47"
+					(reference "C401")
+					(unit 1)
+				)
+			)
+			(project "xDuinoRail-Arduino-RailcomDetect-Dev"
+				(path "/81b33966-136c-4d5d-8e55-9dddbbd3dbe5/be30761f-0228-4a45-9bf0-76f8e7dc5de2/74710df9-7e61-48be-b0f8-0d4cba0f15c2/a5aa2612-0bfe-49ce-a543-ccf125bffe47"
+					(reference "C1001")
+					(unit 1)
+				)
+			)
+			(project "centrale-railcom-feedback-duo"
+				(path "/e8f9fd83-27d4-40ee-a2c1-fd6356795d83/74710df9-7e61-48be-b0f8-0d4cba0f15c2/a5aa2612-0bfe-49ce-a543-ccf125bffe47"
+					(reference "C501")
+					(unit 1)
+				)
+			)
+			(project "xDuinoRail-Accessory-Dev"
+				(path "/fb33ec4e-6596-45d2-a121-8d3475acd69a/04faa6d4-33a6-453e-9edf-76276cac5673/f74e307f-98ea-4a21-90fe-788ab4c41003"
+					(reference "C502")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

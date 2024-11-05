@@ -1,0 +1,9 @@
+* A dual opamp ngspice model
+* file name: lm393_dual.lib
+*
+*             P1   P2   P3  P4   P5   P6   P7   P8
+.subckt LM393 OUTa INa- INa+ GND INb+ INb- OUTb Vcc
+.include lm393.lib
+xlm339a INa+ INa- VCC GND OUTa LM2903B
+xlm339b INb+ INb- VCC GND OUTb LM2903B
+.ends

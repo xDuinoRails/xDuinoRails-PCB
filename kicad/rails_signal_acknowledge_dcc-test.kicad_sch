@@ -1,0 +1,905 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "f9a870df-aaf2-427d-b524-30792058699c")
+	(paper "A4")
+	(title_block
+		(title "xDuinoRail - LocDecoder - Development Kit")
+		(date "2024-10-09")
+		(rev "v0.2")
+		(company "Chatelain Engineering, Bern - CH")
+	)
+	(lib_symbols
+		(symbol "Connector_Generic:Conn_02x03_Odd_Even"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.27 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_02x03_Odd_Even"
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_02x03_Odd_Even_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 2.667)
+					(end 2.54 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 55.88 109.22) (xy 73.66 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b352948-ed0b-40d8-89a5-e6f1353b541c")
+	)
+	(wire
+		(pts
+			(xy 86.36 91.44) (xy 104.14 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44099c35-77a8-4279-8013-fd862dc5016f")
+	)
+	(wire
+		(pts
+			(xy 86.36 86.36) (xy 104.14 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5498146c-10ef-4b02-a3ba-fc5e505c369e")
+	)
+	(wire
+		(pts
+			(xy 86.36 88.9) (xy 104.14 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "635d1760-8519-4914-b68a-775862176ce3")
+	)
+	(wire
+		(pts
+			(xy 67.31 34.29) (xy 67.31 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b5384d9-1f39-4a03-926b-527c4c8f03f8")
+	)
+	(wire
+		(pts
+			(xy 67.31 34.29) (xy 77.47 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "909ad841-a733-4ad8-b5f0-117e796a2e56")
+	)
+	(wire
+		(pts
+			(xy 104.14 109.22) (xy 86.36 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b405fb70-da0c-48db-8bdd-4e3300b89579")
+	)
+	(wire
+		(pts
+			(xy 55.88 104.14) (xy 73.66 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b470f52f-bf71-4795-be14-43647bbe282e")
+	)
+	(wire
+		(pts
+			(xy 55.88 86.36) (xy 73.66 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc5fd65b-2352-4212-a337-033e1d3696a6")
+	)
+	(wire
+		(pts
+			(xy 44.45 48.26) (xy 58.42 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c61776e2-aa14-46a2-838d-a8dd99541436")
+	)
+	(wire
+		(pts
+			(xy 55.88 88.9) (xy 73.66 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc1522d2-4371-4921-994c-44f14045e475")
+	)
+	(wire
+		(pts
+			(xy 67.31 62.23) (xy 67.31 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0e6f4ad-d526-4fc3-8af6-25b9b88dbef5")
+	)
+	(wire
+		(pts
+			(xy 67.31 69.85) (xy 77.47 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e22f24e2-9340-41cc-9e90-7a11070fbbbd")
+	)
+	(wire
+		(pts
+			(xy 55.88 106.68) (xy 73.66 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea84ab72-6290-4a2e-8b88-8a733df92cd5")
+	)
+	(wire
+		(pts
+			(xy 55.88 91.44) (xy 73.66 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4c3e769-4bad-4b38-96a7-2a1452030bf8")
+	)
+	(wire
+		(pts
+			(xy 104.14 106.68) (xy 86.36 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f913867e-c426-442b-a7b9-95b8858769f2")
+	)
+	(wire
+		(pts
+			(xy 104.14 104.14) (xy 86.36 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff4a4401-2e4b-4551-a1f9-a4d939d0cda9")
+	)
+	(text "DCC ACK Signal for programming"
+		(exclude_from_sim no)
+		(at 62.23 22.86 0)
+		(effects
+			(font
+				(size 3.048 3.048)
+			)
+		)
+		(uuid "7d6dbf59-db98-4e12-97af-be371ee8b05a")
+	)
+	(label "GND"
+		(at 104.14 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2bc86c19-be55-4546-8e68-748f2c86b151")
+	)
+	(label "J_DCC_ACK"
+		(at 104.14 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "362767ce-c9eb-40da-a357-d96f6b26c101")
+	)
+	(label "DCC_ACK"
+		(at 104.14 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "447dc686-ff4f-4c66-83c4-4a0c23c42f31")
+	)
+	(label "J_U+"
+		(at 55.88 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a3d081e-ccd9-4eaa-b3b5-491566d13454")
+	)
+	(label "J_GND"
+		(at 77.47 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6b8b5c73-b4e4-4255-a0b6-c22deb7cf442")
+	)
+	(label "U+"
+		(at 104.14 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "70f7aa49-fe5d-466d-8786-04e5efa7de0f")
+	)
+	(label "J_DCC_ACK"
+		(at 55.88 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8503cad1-1766-4c45-969e-7ec03b82997d")
+	)
+	(label "J_U+"
+		(at 77.47 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8beafc26-0863-4428-ab65-bb14430de0c3")
+	)
+	(label "J_DCC_ACK"
+		(at 44.45 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8e44492c-1dc6-44d3-8118-6824f5663944")
+	)
+	(label "J_GND"
+		(at 55.88 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "93deb420-02cc-4459-a070-34b78f7fd41d")
+	)
+	(label "J_U+"
+		(at 104.14 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aa600c83-6879-4a45-b7c7-daccafb15818")
+	)
+	(label "J_U+"
+		(at 55.88 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c971297e-c785-4671-b49d-27abd07d493b")
+	)
+	(label "J_GND"
+		(at 104.14 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e5e9a9c2-46ff-4694-a1ba-1fb37ca8ea99")
+	)
+	(label "J_GND"
+		(at 55.88 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f287b7e9-24fb-4b2a-87d9-f66a24aa7af0")
+	)
+	(label "J_DCC_ACK"
+		(at 55.88 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f518cf8b-c2e7-4756-bcf2-36c5233cc1b8")
+	)
+	(hierarchical_label "DCC_ACK"
+		(shape input)
+		(at 104.14 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7e64ecf2-6751-419c-a8c9-ccea114622cb")
+	)
+	(hierarchical_label "U+"
+		(shape bidirectional)
+		(at 104.14 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8ae434f0-9142-41b7-ba47-c4cc0091ee7a")
+	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 104.14 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "decdc782-e6c0-4801-8ac5-8ed27df7a314")
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
+		(at 78.74 88.9 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "31655445-eb6a-470c-9715-79b982d7df99")
+		(property "Reference" "J102"
+			(at 80.01 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x03_Odd_Even"
+			(at 80.01 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "xDuinoRail:PinHeaderJP_2x03_P2.54mm_Vertical"
+			(at 78.74 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 78.74 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5dbcd674-409b-4f0c-80dd-c0ecc1bb89cc")
+		)
+		(pin "3"
+			(uuid "c46a2c1a-aed9-425b-a84e-5fb58bb4f711")
+		)
+		(pin "6"
+			(uuid "57c735d4-b072-4f8a-afa1-2d1c6a102e9f")
+		)
+		(pin "2"
+			(uuid "b1128c45-d3ca-4c17-81da-d1676736a48a")
+		)
+		(pin "4"
+			(uuid "a59ef512-ec4d-42a7-b2d5-c4b577bb32de")
+		)
+		(pin "5"
+			(uuid "221fb0e8-958b-4faa-958f-8bee94bbf98b")
+		)
+		(instances
+			(project ""
+				(path "/f9a870df-aaf2-427d-b524-30792058699c"
+					(reference "J102")
+					(unit 1)
+				)
+			)
+			(project "xDuinoRail-Accessory-Dev"
+				(path "/fb33ec4e-6596-45d2-a121-8d3475acd69a/b23a7a80-dec5-4402-8b89-21ac006b94b5/deaf1b68-8bb1-4a22-bf5f-eab4be33579f"
+					(reference "J2101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
+		(at 81.28 106.68 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "595668b8-9e76-4f8e-85c8-a353d5094d99")
+		(property "Reference" "J201"
+			(at 80.01 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x03_Odd_Even"
+			(at 80.01 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "xDuinoRail:PinHeaderJP_2x03_P2.54mm_Vertical"
+			(at 81.28 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 81.28 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b99bb90-b438-4f8d-98cd-cdfa4d3a02a4")
+		)
+		(pin "3"
+			(uuid "eacf0fd1-0a06-4cd8-85bb-6061d1b146c8")
+		)
+		(pin "6"
+			(uuid "6afc7eba-8f59-462f-9da4-066fba5c3ce9")
+		)
+		(pin "2"
+			(uuid "0fa8cf78-66c0-4d45-b273-801b9f061491")
+		)
+		(pin "4"
+			(uuid "f0e63d3d-83d0-46a3-9861-96601f061145")
+		)
+		(pin "5"
+			(uuid "4a071c8f-a40f-4b7a-8f5e-62a59add9396")
+		)
+		(instances
+			(project "rails_signal_acknowledge_dcc-test"
+				(path "/f9a870df-aaf2-427d-b524-30792058699c"
+					(reference "J201")
+					(unit 1)
+				)
+			)
+			(project "xDuinoRail-Accessory-Dev"
+				(path "/fb33ec4e-6596-45d2-a121-8d3475acd69a/b23a7a80-dec5-4402-8b89-21ac006b94b5/deaf1b68-8bb1-4a22-bf5f-eab4be33579f"
+					(reference "J2102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.42 40.64)
+		(size 24.13 21.59)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ed436ecb-d988-4cdd-8e5a-918f29a9fae9")
+		(property "Sheetname" "rails-signal-acknowledge_dcc"
+			(at 58.42 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rails-signal-acknowledge_dcc.kicad_sch"
+			(at 58.42 62.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "U+" bidirectional
+			(at 67.31 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "64d12690-44e4-4c1a-9f3c-b055d2f64136")
+		)
+		(pin "GND" bidirectional
+			(at 67.31 62.23 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "503cf5ae-91fb-4e15-99c9-8bb364350dfd")
+		)
+		(pin "DCC_ACK" input
+			(at 58.42 48.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4eb25b6b-1a9e-43b0-89cf-1150da7c20fa")
+		)
+		(instances
+			(project "rails_signal_acknowledge_dcc-test"
+				(path "/f9a870df-aaf2-427d-b524-30792058699c"
+					(page "2")
+				)
+			)
+			(project ""
+				(path "/deaf1b68-8bb1-4a22-bf5f-eab4be33579f"
+					(page "#")
+				)
+			)
+			(project ""
+				(path "/b23a7a80-dec5-4402-8b89-21ac006b94b5/deaf1b68-8bb1-4a22-bf5f-eab4be33579f"
+					(page "#")
+				)
+			)
+			(project "xDuinoRail-Accessory-Dev"
+				(path "/fb33ec4e-6596-45d2-a121-8d3475acd69a/b23a7a80-dec5-4402-8b89-21ac006b94b5/deaf1b68-8bb1-4a22-bf5f-eab4be33579f"
+					(page "#")
+				)
+			)
+		)
+	)
+)

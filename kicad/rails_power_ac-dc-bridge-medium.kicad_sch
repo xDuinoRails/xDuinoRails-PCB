@@ -1,0 +1,1444 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "0ed6639a-cde6-4452-b9e1-77c370bade86")
+	(paper "A4")
+	(title_block
+		(title "xDuinoRail - LocDecoder - Development Kit")
+		(date "2024-10-09")
+		(rev "v0.2")
+		(company "Chatelain Engineering, Bern - CH")
+	)
+	(lib_symbols
+		(symbol "Device:Fuse"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse"
+				(at -1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fuse_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Diode:SS14"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SS14"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMA"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "40V 1A Schottky Diode, SMA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SMA*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SS14_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SS14_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 62.23 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f40a9ff-59ed-422c-beaf-3fa3a8c7a989")
+	)
+	(junction
+		(at 46.99 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43571f79-79ce-4265-bf58-031e4f79f2f9")
+	)
+	(junction
+		(at 46.99 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52e9f4ed-eeae-42cc-a781-30890fa1e976")
+	)
+	(junction
+		(at 55.88 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2126ad7-8e16-4641-b211-137f091e2549")
+	)
+	(junction
+		(at 91.44 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c22a23f9-ac7a-4983-bd18-e043478b76a9")
+	)
+	(junction
+		(at 55.88 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de30b9bd-3a80-442d-9096-ea9d461fbbca")
+	)
+	(wire
+		(pts
+			(xy 91.44 60.96) (xy 93.98 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a055b44-2c39-4d4a-86ec-3950969ef703")
+	)
+	(wire
+		(pts
+			(xy 55.88 44.45) (xy 62.23 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4433641e-d8de-4cd9-b641-db3dd50a979a")
+	)
+	(wire
+		(pts
+			(xy 46.99 44.45) (xy 48.26 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73323082-58e4-4e95-a7e2-d7e9bc959679")
+	)
+	(wire
+		(pts
+			(xy 62.23 44.45) (xy 81.28 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ef78843-77f5-47ae-ae35-878d7dcd879e")
+	)
+	(wire
+		(pts
+			(xy 46.99 60.96) (xy 46.99 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80364cbb-2298-4fd1-9989-3873cc77db31")
+	)
+	(wire
+		(pts
+			(xy 46.99 60.96) (xy 91.44 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9413c1f6-13bd-4cd4-af60-2cd6af618825")
+	)
+	(wire
+		(pts
+			(xy 30.48 44.45) (xy 46.99 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9dfabb4-76a5-4dc6-9ce5-b94ca29b7808")
+	)
+	(wire
+		(pts
+			(xy 55.88 52.07) (xy 55.88 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d27d6aee-9275-4b7d-b77f-314e2c9f6389")
+	)
+	(wire
+		(pts
+			(xy 88.9 44.45) (xy 93.98 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d77fbdda-1d38-48a0-a746-56eaf48b41cf")
+	)
+	(wire
+		(pts
+			(xy 48.26 52.07) (xy 46.99 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e15858e2-80df-4bfb-b39e-3a545e1a065a")
+	)
+	(wire
+		(pts
+			(xy 30.48 59.69) (xy 55.88 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb6b6205-77e6-41b5-8809-a14cd7ca4480")
+	)
+	(text "Bridge rectifier medium\n"
+		(exclude_from_sim no)
+		(at 45.974 27.686 0)
+		(effects
+			(font
+				(size 3.048 3.048)
+			)
+		)
+		(uuid "6d1ebaf5-01c3-43ec-9c17-527d93ec89f1")
+	)
+	(label "AC1"
+		(at 30.48 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f9a69e0-1bcf-4f28-a9bf-6ee5ac1bd5c6")
+	)
+	(label "+U_UNFUSED"
+		(at 66.04 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "66b8b53c-3ad4-467c-bb49-445353a4501f")
+	)
+	(label "AC0"
+		(at 30.48 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "743daf74-c372-493d-a0a4-38b71d461a0d")
+	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 93.98 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "58901020-2f30-4f65-8aa7-73b111d782f1")
+	)
+	(hierarchical_label "U+"
+		(shape output)
+		(at 93.98 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a0663101-a7c5-4f6b-a069-d7efa603a588")
+	)
+	(hierarchical_label "AC[0..1]"
+		(shape input)
+		(at 30.48 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c0c95e55-0bb0-449f-8834-9ae8c82a22fa")
+	)
+	(symbol
+		(lib_id "Diode:SS14")
+		(at 52.07 44.45 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "265637cd-7016-4a22-9158-bd49512f0c00")
+		(property "Reference" "D102"
+			(at 52.3875 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS14"
+			(at 52.3875 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 52.07 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
+			(at 52.07 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 1A Schottky Diode, SMA"
+			(at 52.07 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Frequency" ""
+			(at 52.07 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 52.07 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 52.07 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OLI_ID" "SS14_SMA"
+			(at 52.07 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 52.07 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=A 2=K"
+			(at 52.07 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "rohs_cert_or_in_datasheet" ""
+			(at 52.07 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "87773c82-0574-497a-97e9-df0641611de0")
+		)
+		(pin "1"
+			(uuid "78d2c495-c9e6-44d2-b646-309ea56d7b72")
+		)
+		(instances
+			(project "rails_power_ac-dc-bridge-medium"
+				(path "/0ed6639a-cde6-4452-b9e1-77c370bade86"
+					(reference "D102")
+					(unit 1)
+				)
+				(path "/0ed6639a-cde6-4452-b9e1-77c370bade86/f8dfb86d-a7ab-4803-83d6-d34c2da75a81"
+					(reference "D202")
+					(unit 1)
+				)
+			)
+			(project "rails_power_ac-dc-bridge-medium"
+				(path "/fb33ec4e-6596-45d2-a121-8d3475acd69a/d74490ca-3ff6-4c05-8b03-79b06dd40e4c"
+					(reference "D202")
+					(unit 1)
+				)
+				(path "/fb33ec4e-6596-45d2-a121-8d3475acd69a/d74490ca-3ff6-4c05-8b03-79b06dd40e4c/f8dfb86d-a7ab-4803-83d6-d34c2da75a81"
+					(reference "D202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 62.23 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "771becb6-dd18-4e94-a9bc-cbb5e979a68a")
+		(property "Reference" "#FLG0101"
+			(at 62.23 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 62.23 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 62.23 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82431aa8-c34a-44b8-8af4-e880410104ed")
+		)
+		(instances
+			(project "rails_power_ac-dc-bridge-medium"
+				(path "/0ed6639a-cde6-4452-b9e1-77c370bade86"
+					(reference "#FLG0101")
+					(unit 1)
+				)
+				(path "/0ed6639a-cde6-4452-b9e1-77c370bade86/f8dfb86d-a7ab-4803-83d6-d34c2da75a81"
+					(reference "#FLG0201")
+					(unit 1)
+				)
+			)
+			(project "rails_power_ac-dc-bridge-medium"
+				(path "/fb33ec4e-6596-45d2-a121-8d3475acd69a/d74490ca-3ff6-4c05-8b03-79b06dd40e4c"
+					(reference "#FLG0201")
+					(unit 1)
+				)
+				(path "/fb33ec4e-6596-45d2-a121-8d3475acd69a/d74490ca-3ff6-4c05-8b03-79b06dd40e4c/f8dfb86d-a7ab-4803-83d6-d34c2da75a81"
+					(reference "#FLG0201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SS14")
+		(at 55.88 48.26 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7810eba9-4de5-411c-9ad1-f5f4d6320746")
+		(property "Reference" "D104"
+			(at 62.23 47.9425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS14"
+			(at 59.69 47.9425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 60.325 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
+			(at 55.88 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 1A Schottky Diode, SMA"
+			(at 55.88 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Frequency" ""
+			(at 55.88 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 55.88 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 55.88 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OLI_ID" "SS14_SMA"
+			(at 55.88 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 55.88 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=A 2=K"
+			(at 55.88 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "rohs_cert_or_in_datasheet" ""
+			(at 55.88 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "da1f01b0-dba5-4e00-ab4e-09973d4e87c4")
+		)
+		(pin "1"
+			(uuid "7921602d-7526-44e2-87fe-d9edbdd7fd3b")
+		)
+		(instances
+			(project "rails_power_ac-dc-bridge-medium"
+				(path "/0ed6639a-cde6-4452-b9e1-77c370bade86"
+					(reference "D104")
+					(unit 1)
+				)
+				(path "/0ed6639a-cde6-4452-b9e1-77c370bade86/f8dfb86d-a7ab-4803-83d6-d34c2da75a81"
+					(reference "D204")
+					(unit 1)
+				)
+			)
+			(project "rails_power_ac-dc-bridge-medium"
+				(path "/fb33ec4e-6596-45d2-a121-8d3475acd69a/d74490ca-3ff6-4c05-8b03-79b06dd40e4c"
+					(reference "D204")
+					(unit 1)
+				)
+				(path "/fb33ec4e-6596-45d2-a121-8d3475acd69a/d74490ca-3ff6-4c05-8b03-79b06dd40e4c/f8dfb86d-a7ab-4803-83d6-d34c2da75a81"
+					(reference "D204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SS14")
+		(at 52.07 52.07 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a8cd6df5-dc58-4126-8ec5-7633f2171285")
+		(property "Reference" "D103"
+			(at 52.3875 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS14"
+			(at 52.3875 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 52.07 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
+			(at 52.07 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 1A Schottky Diode, SMA"
+			(at 52.07 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Frequency" ""
+			(at 52.07 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 52.07 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 52.07 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OLI_ID" "SS14_SMA"
+			(at 52.07 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 52.07 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=A 2=K"
+			(at 52.07 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "rohs_cert_or_in_datasheet" ""
+			(at 52.07 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e5880810-3950-402d-81ca-734b3d43f90d")
+		)
+		(pin "1"
+			(uuid "d4384c65-b1af-452c-bf8d-3197114bb1e8")
+		)
+		(instances
+			(project "rails_power_ac-dc-bridge-medium"
+				(path "/0ed6639a-cde6-4452-b9e1-77c370bade86"
+					(reference "D103")
+					(unit 1)
+				)
+				(path "/0ed6639a-cde6-4452-b9e1-77c370bade86/f8dfb86d-a7ab-4803-83d6-d34c2da75a81"
+					(reference "D203")
+					(unit 1)
+				)
+			)
+			(project "rails_power_ac-dc-bridge-medium"
+				(path "/fb33ec4e-6596-45d2-a121-8d3475acd69a/d74490ca-3ff6-4c05-8b03-79b06dd40e4c"
+					(reference "D203")
+					(unit 1)
+				)
+				(path "/fb33ec4e-6596-45d2-a121-8d3475acd69a/d74490ca-3ff6-4c05-8b03-79b06dd40e4c/f8dfb86d-a7ab-4803-83d6-d34c2da75a81"
+					(reference "D203")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 85.09 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4729431-05fa-4cab-84e1-8ea0997d8ea5")
+		(property "Reference" "F101"
+			(at 85.09 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SRF1206P150"
+			(at 85.09 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 85.09 46.228 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 85.09 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OLI_ID" "SRF1206P150_1206"
+			(at 85.09 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aea850b8-8046-48ae-a921-f4a3285094f9")
+		)
+		(pin "2"
+			(uuid "42fd2702-972d-4153-a5bf-38601b89b44b")
+		)
+		(instances
+			(project "rails_power_ac-dc-bridge-medium"
+				(path "/0ed6639a-cde6-4452-b9e1-77c370bade86"
+					(reference "F101")
+					(unit 1)
+				)
+				(path "/0ed6639a-cde6-4452-b9e1-77c370bade86/f8dfb86d-a7ab-4803-83d6-d34c2da75a81"
+					(reference "F201")
+					(unit 1)
+				)
+			)
+			(project "rails_power_ac-dc-bridge-medium"
+				(path "/fb33ec4e-6596-45d2-a121-8d3475acd69a/d74490ca-3ff6-4c05-8b03-79b06dd40e4c"
+					(reference "F201")
+					(unit 1)
+				)
+				(path "/fb33ec4e-6596-45d2-a121-8d3475acd69a/d74490ca-3ff6-4c05-8b03-79b06dd40e4c/f8dfb86d-a7ab-4803-83d6-d34c2da75a81"
+					(reference "F201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SS14")
+		(at 46.99 48.26 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d795f312-41b6-4da0-8e9c-b928ffea53d2")
+		(property "Reference" "D101"
+			(at 40.64 47.9425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS14"
+			(at 43.18 47.9425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 42.545 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
+			(at 46.99 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 1A Schottky Diode, SMA"
+			(at 46.99 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Frequency" ""
+			(at 46.99 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 46.99 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 46.99 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OLI_ID" "SS14_SMA"
+			(at 46.99 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 46.99 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=A 2=K"
+			(at 46.99 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "rohs_cert_or_in_datasheet" ""
+			(at 46.99 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "df15c810-a9b4-48b5-9efd-f9ed3b50857e")
+		)
+		(pin "1"
+			(uuid "e1af93cb-5cf8-4993-aa86-ed2c0ad6c6ec")
+		)
+		(instances
+			(project "rails_power_ac-dc-bridge-medium"
+				(path "/0ed6639a-cde6-4452-b9e1-77c370bade86"
+					(reference "D101")
+					(unit 1)
+				)
+				(path "/0ed6639a-cde6-4452-b9e1-77c370bade86/f8dfb86d-a7ab-4803-83d6-d34c2da75a81"
+					(reference "D201")
+					(unit 1)
+				)
+			)
+			(project "rails_power_ac-dc-bridge-medium"
+				(path "/fb33ec4e-6596-45d2-a121-8d3475acd69a/d74490ca-3ff6-4c05-8b03-79b06dd40e4c"
+					(reference "D201")
+					(unit 1)
+				)
+				(path "/fb33ec4e-6596-45d2-a121-8d3475acd69a/d74490ca-3ff6-4c05-8b03-79b06dd40e4c/f8dfb86d-a7ab-4803-83d6-d34c2da75a81"
+					(reference "D201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 91.44 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "daa18499-b354-49bd-84e5-dce2ecc87ed7")
+		(property "Reference" "#FLG0102"
+			(at 91.44 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 91.44 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 91.44 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed1cb520-db10-4011-86b8-634517dab76a")
+		)
+		(instances
+			(project "rails_power_ac-dc-bridge-medium"
+				(path "/0ed6639a-cde6-4452-b9e1-77c370bade86"
+					(reference "#FLG0102")
+					(unit 1)
+				)
+				(path "/0ed6639a-cde6-4452-b9e1-77c370bade86/f8dfb86d-a7ab-4803-83d6-d34c2da75a81"
+					(reference "#FLG0202")
+					(unit 1)
+				)
+			)
+			(project "rails_power_ac-dc-bridge-medium"
+				(path "/fb33ec4e-6596-45d2-a121-8d3475acd69a/d74490ca-3ff6-4c05-8b03-79b06dd40e4c"
+					(reference "#FLG0202")
+					(unit 1)
+				)
+				(path "/fb33ec4e-6596-45d2-a121-8d3475acd69a/d74490ca-3ff6-4c05-8b03-79b06dd40e4c/f8dfb86d-a7ab-4803-83d6-d34c2da75a81"
+					(reference "#FLG0202")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

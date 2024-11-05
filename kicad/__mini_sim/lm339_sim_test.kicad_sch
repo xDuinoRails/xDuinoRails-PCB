@@ -1,0 +1,3615 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "6d7aefd8-fcb8-4935-b99c-c7045c3b702f")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Comparator:LM339"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LM339"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm139.pdf"
+				(at 1.27 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Quad Differential Comparators, SOIC-14/TSSOP-14"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cmp open collector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm* TSSOP*4.4x5mm*P0.65mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LM339_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.508) (xy 2.794 -0.508) (xy 3.302 0) (xy 2.794 0.508) (xy 2.286 0) (xy 2.794 -0.508)
+						(xy 2.286 -0.508)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin open_collector line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM339_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.508) (xy 2.794 -0.508) (xy 3.302 0) (xy 2.794 0.508) (xy 2.286 0) (xy 2.794 -0.508)
+						(xy 2.286 -0.508)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin open_collector line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM339_3_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.508) (xy 2.794 -0.508) (xy 3.302 0) (xy 2.794 0.508) (xy 2.286 0) (xy 2.794 -0.508)
+						(xy 2.286 -0.508)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM339_4_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.508) (xy 2.794 -0.508) (xy 3.302 0) (xy 2.794 0.508) (xy 2.286 0) (xy 2.794 -0.508)
+						(xy 2.286 -0.508)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin open_collector line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM339_5_1"
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Simulation_SPICE:0"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#GND"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "0"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "0V reference potential for simulation"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "simulation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 0 -1.27) (xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0_1_1"
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Simulation_SPICE:VDC"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.0254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "V"
+				(at 2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "1"
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Voltage source, DC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=+ 2=-"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Type" "DC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "simulation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VDC_0_0"
+				(polyline
+					(pts
+						(xy -1.27 0.254) (xy 1.27 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -0.254) (xy -1.27 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -0.254) (xy -0.254 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -0.254) (xy 0.762 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "+"
+					(at 0 1.905 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "VDC_0_1"
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "VDC_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Simulation_SPICE:VSIN"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.0254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "V"
+				(at 2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "VSIN"
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Voltage source, sinusoidal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=+ 2=-"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Params" "dc=0 ampl=1 f=1k ac=1"
+				(at 2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Sim.Type" "SIN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "simulation ac vac"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VSIN_0_0"
+				(arc
+					(start 0 0)
+					(mid -0.635 0.6323)
+					(end -1.27 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.635 -0.6323)
+					(end 1.27 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "+"
+					(at 0 1.905 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "VSIN_0_1"
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "VSIN_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 26.67 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "069ce9e3-e45e-40c0-bfc0-c436ce4edb81")
+	)
+	(junction
+		(at 129.54 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "448376b7-6576-4ae1-9148-6084331b0fb9")
+	)
+	(junction
+		(at 36.83 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f628cde-1fa1-4d35-9cd7-9ad0c9fddedd")
+	)
+	(junction
+		(at 179.07 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64df9c1b-ed97-4752-88fd-c0b16e1238e3")
+	)
+	(junction
+		(at 92.71 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69345706-d1d1-4cc5-bcf3-691b5d26d901")
+	)
+	(junction
+		(at 26.67 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6eebbf88-1fd0-49d2-970e-32fc5f4169fc")
+	)
+	(junction
+		(at 179.07 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4aceb7d-0db9-4ecc-b548-e68458e7e255")
+	)
+	(junction
+		(at 129.54 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4a9a01f-e92b-4478-8eb9-7f18c3a77445")
+	)
+	(junction
+		(at 179.07 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c55c0b18-c1b8-40a9-926c-0d3545d37b00")
+	)
+	(junction
+		(at 179.07 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce99bfe7-7d7c-41f4-bc48-1cddf203f941")
+	)
+	(wire
+		(pts
+			(xy 179.07 120.65) (xy 179.07 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "024b1f3d-6d00-4132-ac0c-e3c0af3ecf86")
+	)
+	(wire
+		(pts
+			(xy 36.83 59.69) (xy 36.83 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06b677d6-eea0-4f57-b38b-ee8238707e3f")
+	)
+	(wire
+		(pts
+			(xy 179.07 124.46) (xy 179.07 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a4d6005-f2db-4e24-a860-19e141bd64af")
+	)
+	(wire
+		(pts
+			(xy 129.54 135.89) (xy 129.54 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c15c945-af6a-4b4d-85f6-aa9a97eb6a82")
+	)
+	(wire
+		(pts
+			(xy 26.67 59.69) (xy 36.83 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "201fa31b-1ebb-4cd0-9d60-c2275101a51c")
+	)
+	(wire
+		(pts
+			(xy 129.54 63.5) (xy 129.54 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25d0ee5d-36b6-4f85-aa47-d20dd5e58116")
+	)
+	(wire
+		(pts
+			(xy 154.94 85.09) (xy 179.07 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29a40140-3f1a-4b43-9fb8-80d6926effa9")
+	)
+	(wire
+		(pts
+			(xy 179.07 60.96) (xy 179.07 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2badd77d-e1ef-488e-bf7f-99f7af68bacf")
+	)
+	(wire
+		(pts
+			(xy 179.07 111.76) (xy 179.07 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bc4aedb-f102-4fd5-b4e7-6fe5c347efbf")
+	)
+	(wire
+		(pts
+			(xy 154.94 60.96) (xy 179.07 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d18609f-994f-4e9a-b776-81ed80a8b406")
+	)
+	(wire
+		(pts
+			(xy 139.7 58.42) (xy 118.11 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3582256e-af2f-4b3d-9637-4430604edc3c")
+	)
+	(wire
+		(pts
+			(xy 179.07 148.59) (xy 210.82 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37b221e8-6380-4360-80bd-6a79f23bcf50")
+	)
+	(wire
+		(pts
+			(xy 92.71 71.12) (xy 129.54 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ce0c07c-7cd9-44ef-853f-8115e0040d12")
+	)
+	(wire
+		(pts
+			(xy 179.07 46.99) (xy 186.69 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41fac603-35fc-416e-a119-1a8d0e893d9f")
+	)
+	(wire
+		(pts
+			(xy 36.83 74.93) (xy 54.61 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56906e55-aa2d-463c-bc42-3bbfaedc6785")
+	)
+	(wire
+		(pts
+			(xy 129.54 71.12) (xy 129.54 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bb1956b-c81e-4203-868b-420a8d45915e")
+	)
+	(wire
+		(pts
+			(xy 17.78 63.5) (xy 26.67 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5eeca57c-3810-41eb-94cd-2102155ed246")
+	)
+	(wire
+		(pts
+			(xy 74.93 62.23) (xy 74.93 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6465894f-65fb-4a4a-80e0-a1638ded2257")
+	)
+	(wire
+		(pts
+			(xy 179.07 60.96) (xy 179.07 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65e5e3e2-96af-4c46-88ee-aab9ff23b173")
+	)
+	(wire
+		(pts
+			(xy 26.67 63.5) (xy 26.67 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b2c4ab5-7275-4dda-bcca-87621e526fbb")
+	)
+	(wire
+		(pts
+			(xy 36.83 59.69) (xy 36.83 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6be73d3e-1294-4494-9cd5-335729fb7db9")
+	)
+	(wire
+		(pts
+			(xy 179.07 46.99) (xy 179.07 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e026bd6-0200-4e38-a3b2-aa43d8c2b6db")
+	)
+	(wire
+		(pts
+			(xy 74.93 62.23) (xy 86.36 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "723e518d-7927-47c8-8107-c011f2b36123")
+	)
+	(wire
+		(pts
+			(xy 74.93 36.83) (xy 86.36 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72464613-7abf-4e30-803f-fa1e2b104085")
+	)
+	(wire
+		(pts
+			(xy 129.54 127) (xy 139.7 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "729212aa-8ea1-4d4a-85a8-7ae7ced6d85f")
+	)
+	(wire
+		(pts
+			(xy 26.67 34.29) (xy 26.67 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "752965e5-03d7-457c-8d55-21bae4851f98")
+	)
+	(wire
+		(pts
+			(xy 74.93 36.83) (xy 74.93 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "789fd56a-5ea1-4da8-9586-c5cb99b8d4aa")
+	)
+	(wire
+		(pts
+			(xy 179.07 85.09) (xy 203.2 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a2e8097-2693-4e34-af4a-a29962ebc7b1")
+	)
+	(wire
+		(pts
+			(xy 74.93 71.12) (xy 74.93 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7db73ef1-1914-4c12-be72-383dda0decd6")
+	)
+	(wire
+		(pts
+			(xy 154.94 124.46) (xy 179.07 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "858da31b-cbc3-4b6e-ab6e-0de02d19c522")
+	)
+	(wire
+		(pts
+			(xy 74.93 99.06) (xy 74.93 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c1dff71-d155-4ec2-b9c0-94bc3eb60414")
+	)
+	(wire
+		(pts
+			(xy 154.94 148.59) (xy 179.07 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9282835d-71ad-44d5-a4ba-5591a3ba9b7b")
+	)
+	(wire
+		(pts
+			(xy 139.7 151.13) (xy 118.11 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9926ae8b-1c4f-4c2d-8d31-8a723931f287")
+	)
+	(wire
+		(pts
+			(xy 74.93 71.12) (xy 92.71 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e3239b3-6d9e-41e9-8fd8-74d77ece691b")
+	)
+	(wire
+		(pts
+			(xy 54.61 34.29) (xy 26.67 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ee94130-34da-4151-b440-bb373032cbae")
+	)
+	(wire
+		(pts
+			(xy 129.54 63.5) (xy 139.7 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a039e421-9e72-4948-bb83-cbec6a3dfbf3")
+	)
+	(wire
+		(pts
+			(xy 26.67 85.09) (xy 54.61 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a04c80ab-ce96-48b7-a495-2aea06a9c6dd")
+	)
+	(wire
+		(pts
+			(xy 26.67 81.28) (xy 26.67 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1a0cf7b-483b-47e6-a738-395ee262249b")
+	)
+	(wire
+		(pts
+			(xy 139.7 121.92) (xy 118.11 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4add788-6111-4edc-a4cc-f4c3c353ba3d")
+	)
+	(wire
+		(pts
+			(xy 36.83 48.26) (xy 36.83 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5cb73dc-8a57-4810-b545-78aaa3bd6ea7")
+	)
+	(wire
+		(pts
+			(xy 179.07 111.76) (xy 185.42 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa46f86d-88dc-4f73-9cb2-5140057484be")
+	)
+	(wire
+		(pts
+			(xy 129.54 146.05) (xy 139.7 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac233550-9966-43ed-80f3-598b65bc14b9")
+	)
+	(wire
+		(pts
+			(xy 17.78 69.85) (xy 17.78 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac509e09-e274-4e7b-a53c-f64f8ac1e0e5")
+	)
+	(wire
+		(pts
+			(xy 129.54 127) (xy 129.54 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae7828c2-8a8e-40d0-bf9c-cf1af09b6be1")
+	)
+	(wire
+		(pts
+			(xy 139.7 87.63) (xy 118.11 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae9d18f3-6b04-4da0-93db-c5c4ed850b7e")
+	)
+	(wire
+		(pts
+			(xy 26.67 63.5) (xy 26.67 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3ddf852-f75a-4daa-91b2-e31852f638b9")
+	)
+	(wire
+		(pts
+			(xy 92.71 135.89) (xy 129.54 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7c50635-3bc5-4670-9105-6aab39e60c27")
+	)
+	(wire
+		(pts
+			(xy 26.67 50.8) (xy 26.67 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dca219bd-fdaf-4e2d-8fdd-6bc2cdfaa0a8")
+	)
+	(wire
+		(pts
+			(xy 36.83 46.99) (xy 54.61 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec9a1f74-fd8a-4031-90f0-ad8837780cd5")
+	)
+	(wire
+		(pts
+			(xy 92.71 135.89) (xy 92.71 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecb07426-5d41-4bae-aaf9-818dbf8530ce")
+	)
+	(wire
+		(pts
+			(xy 139.7 82.55) (xy 129.54 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa423030-068c-433f-b290-cac6f1fa914e")
+	)
+	(wire
+		(pts
+			(xy 36.83 72.39) (xy 36.83 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe2dc71d-5f8d-4930-841a-e32f7ced4bef")
+	)
+	(text "https://normen.railcommunity.de/RCN-217.pdf"
+		(exclude_from_sim no)
+		(at 140.97 163.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "389f1ac3-e770-40cd-9121-33140b00885c")
+	)
+	(text "LM339 test sim"
+		(exclude_from_sim no)
+		(at 40.64 22.86 0)
+		(effects
+			(font
+				(size 3.048 3.048)
+			)
+		)
+		(uuid "4bd3dc2a-2063-413e-999c-593cb966b599")
+	)
+	(text "WHEN dcc_track > 18mV OR dcc_track < -18mV \nTHEN negativ\nELSE pulled-up (positiv)"
+		(exclude_from_sim no)
+		(at 187.96 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "54819612-7175-44e1-9069-18c0b0f87148")
+	)
+	(text "WHEN dcc_track > 18mV OR dcc_track < -18mV \nTHEN negativ\nELSE pulled-up (positiv)"
+		(exclude_from_sim no)
+		(at 185.42 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "86822966-c153-4534-8def-364a23baa1d6")
+	)
+	(label "+3V3"
+		(at 86.36 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1ec17fc0-ce63-450f-a9d7-e0b03926da7c")
+	)
+	(label "-18mV"
+		(at 118.11 151.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "210e81a1-03a8-40f1-92d6-376efeab402d")
+	)
+	(label "+3V3"
+		(at 185.42 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "23c08b3a-2aa8-4ba1-bced-b06cf5900357")
+	)
+	(label "RAILCOM0"
+		(at 203.2 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2650eb89-2677-496f-8f39-cf4bcae66cb0")
+	)
+	(label "_TST_TRACK_A1m"
+		(at 172.72 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "37e8800b-4581-494a-9892-c185a192e5b5")
+	)
+	(label "+3V3"
+		(at 54.61 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3e0a427f-66bc-4acb-a445-35ec719f21ee")
+	)
+	(label "m750mV"
+		(at 54.61 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "46c27a43-c4cc-4634-85a8-2e89acdc8978")
+	)
+	(label "+18mV"
+		(at 118.11 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4750e278-016e-4b68-8e90-23c2954679e3")
+	)
+	(label "+18mV"
+		(at 118.11 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4933db51-18f6-41d9-bf08-9a1eb7c1e063")
+	)
+	(label "TRACK_B1"
+		(at 110.49 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "495015ae-b461-46b3-8085-b00e1f5d0274")
+	)
+	(label "+3V3"
+		(at 186.69 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "58df9e1e-70cc-4640-8810-0acd881d5eb9")
+	)
+	(label "+18mV"
+		(at 54.61 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5b686714-0224-4709-9de9-86a90bfa2930")
+	)
+	(label "-18mV"
+		(at 54.61 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "97fd3c27-7055-4e7c-b385-9cd4194c8aa3")
+	)
+	(label "RAILCOM1"
+		(at 210.82 148.59 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9ccdb967-0e37-4d48-886c-e7e2c7968f81")
+	)
+	(label "_TST_TRACK_A2m"
+		(at 172.72 148.59 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c7b15f6b-8dde-44bd-9f3c-2bed12cb62ff")
+	)
+	(label "m750mV"
+		(at 86.36 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c8549c47-8078-47e2-ab22-f05348880895")
+	)
+	(label "TRACK_A1"
+		(at 110.49 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cf99b3c6-c7de-4213-bab3-01ab93a390cd")
+	)
+	(label "_TST_TRACK_A2p"
+		(at 172.72 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d1a5494d-4c96-4d6d-b172-4aec9ea4cbfc")
+	)
+	(label "-18mV"
+		(at 118.11 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc1dce51-aadc-41d5-9c66-89b1a42a4f09")
+	)
+	(label "_TST_TRACK_A1p"
+		(at 172.72 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fd7c9b2e-247e-4d2b-8ac4-b2b0defc23af")
+	)
+	(symbol
+		(lib_id "Comparator:LM339")
+		(at 147.32 60.96 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c35457f-6e82-4c6a-b6f3-640546ab5ba3")
+		(property "Reference" "U?"
+			(at 147.32 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM339"
+			(at 147.32 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm139.pdf"
+			(at 148.59 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Differential Comparators, SOIC-14/TSSOP-14"
+			(at 147.32 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "C:\\Users\\chatelain\\Dropbox\\Privat-2023\\2023-11-11_DCC-EX-Shield\\xDuinoRail-Decoder\\kicad\\xDuinoRailShield\\__ltspice\\lm339_quad.lib"
+			(at 147.32 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "LM339"
+			(at 147.32 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 147.32 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=OUTb 2=OUTa 3=Vcc 4=INa- 5=INa+ 6=INb- 7=INb+ 8=INc- 9=INc+ 10=INd- 11=INd+ 12=GND 13=OUTd 14=OUTc"
+			(at 147.32 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5cd8eaef-73e0-41af-909d-d48033281e34")
+		)
+		(pin "14"
+			(uuid "8e0413c3-312c-43bb-bbf5-b5f7e2bd55ed")
+		)
+		(pin "12"
+			(uuid "0e4e183e-d5dd-4171-b131-58bf2e537891")
+		)
+		(pin "5"
+			(uuid "209df816-2cac-4c30-9b44-650e19809b11")
+		)
+		(pin "6"
+			(uuid "b896bead-34e1-4f1b-bf6b-debb18174bc1")
+		)
+		(pin "1"
+			(uuid "f6a660a1-8120-40ae-922b-61ec08eff496")
+		)
+		(pin "8"
+			(uuid "4d410dbd-1023-4505-962a-690213db4591")
+		)
+		(pin "7"
+			(uuid "bdee861e-8d79-4046-acc9-53d0385b4820")
+		)
+		(pin "11"
+			(uuid "3e1dc9e1-8398-4091-8551-ca56dcc2d74f")
+		)
+		(pin "4"
+			(uuid "85db985d-5917-4a73-90d7-3886c3b003dd")
+		)
+		(pin "10"
+			(uuid "f0d16f91-a1a3-4c58-b24c-30fb01aa16ac")
+		)
+		(pin "9"
+			(uuid "3f087fdb-b203-4ed8-8091-9d06817cfafd")
+		)
+		(pin "13"
+			(uuid "a974ca45-d6c4-45b1-8e2b-bfe43ac08880")
+		)
+		(pin "3"
+			(uuid "d163f2b9-dd82-45da-beb3-b215590f4869")
+		)
+		(instances
+			(project "xDuinoRail-Breakout-RailcomDetect"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203/4ee38f16-391e-446c-bd4a-da776e23629a"
+					(reference "U?")
+					(unit 2)
+				)
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203/cddc5dbc-4519-43fa-a1d8-85355b2ecf1b"
+					(reference "U?")
+					(unit 2)
+				)
+			)
+			(project "central_railcom-detector-duo"
+				(path "/6d7aefd8-fcb8-4935-b99c-c7045c3b702f"
+					(reference "U102")
+					(unit 2)
+				)
+			)
+			(project "xDuinoRail-Arduino-RailcomDetect-Dev"
+				(path "/81b33966-136c-4d5d-8e55-9dddbbd3dbe5/be30761f-0228-4a45-9bf0-76f8e7dc5de2/cddc5dbc-4519-43fa-a1d8-85355b2ecf1b"
+					(reference "U302")
+					(unit 2)
+				)
+			)
+			(project "centrale-railcom-detector-duo_test"
+				(path "/e8f9fd83-27d4-40ee-a2c1-fd6356795d83/cddc5dbc-4519-43fa-a1d8-85355b2ecf1b"
+					(reference "U101")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:0")
+		(at 17.78 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e581ecb-0a77-4700-8e52-8dc9453e7426")
+		(property "Reference" "#GND0101"
+			(at 17.78 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "0"
+			(at 17.78 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 17.78 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
+			(at 17.78 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0V reference potential for simulation"
+			(at 17.78 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63dba835-3de8-4576-9a6f-8aece1b13ee0")
+		)
+		(instances
+			(project ""
+				(path "/6d7aefd8-fcb8-4935-b99c-c7045c3b702f"
+					(reference "#GND0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:VDC")
+		(at 26.67 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2eeb2e29-b61f-4bd6-b3bd-89adca2c9743")
+		(property "Reference" "V104"
+			(at 30.48 74.8001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "-750mV"
+			(at 30.48 77.3401 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
+			(at 26.67 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Voltage source, DC"
+			(at 26.67 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 26.67 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "DC"
+			(at 26.67 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 26.67 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e4ff4e3-7f1b-45f9-8c4a-6f41a6765b71")
+		)
+		(pin "2"
+			(uuid "7acec9d5-cd3c-4276-8707-db60cf006751")
+		)
+		(instances
+			(project "lm339_sim_test"
+				(path "/6d7aefd8-fcb8-4935-b99c-c7045c3b702f"
+					(reference "V104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 179.07 116.84 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3140c5d0-e6f6-4fdb-9268-fb61828e69f8")
+		(property "Reference" "R?"
+			(at 185.42 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 182.88 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 180.848 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 179.07 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OLI_ID" "10k_0603"
+			(at 179.07 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 179.07 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Frequency" ""
+			(at 179.07 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 179.07 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 179.07 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "rohs_cert_or_in_datasheet" ""
+			(at 179.07 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 179.07 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 179.07 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26c6a849-20fd-4214-b695-96f75662b2ec")
+		)
+		(pin "2"
+			(uuid "9f930beb-0dc9-4d7f-a5e0-ea9d4ea902dc")
+		)
+		(instances
+			(project "xDuinoRail-Breakout-RailcomDetect"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203/4ee38f16-391e-446c-bd4a-da776e23629a"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203/cddc5dbc-4519-43fa-a1d8-85355b2ecf1b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "central_railcom-detector-duo"
+				(path "/6d7aefd8-fcb8-4935-b99c-c7045c3b702f"
+					(reference "R108")
+					(unit 1)
+				)
+			)
+			(project "xDuinoRail-Arduino-RailcomDetect-Dev"
+				(path "/81b33966-136c-4d5d-8e55-9dddbbd3dbe5/be30761f-0228-4a45-9bf0-76f8e7dc5de2/cddc5dbc-4519-43fa-a1d8-85355b2ecf1b"
+					(reference "R312")
+					(unit 1)
+				)
+			)
+			(project "centrale-railcom-detector-duo_test"
+				(path "/e8f9fd83-27d4-40ee-a2c1-fd6356795d83/cddc5dbc-4519-43fa-a1d8-85355b2ecf1b"
+					(reference "R112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:VDC")
+		(at 36.83 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "570917bd-1eeb-436b-8955-822b4e27dd38")
+		(property "Reference" "V101"
+			(at 40.64 51.9401 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "18mV"
+			(at 40.64 54.4801 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
+			(at 36.83 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Voltage source, DC"
+			(at 36.83 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 36.83 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "DC"
+			(at 36.83 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 36.83 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d1044b5-f98b-4b39-9b54-8685426f3424")
+		)
+		(pin "2"
+			(uuid "bf9020c0-1fdf-4509-919d-649bbf29bba1")
+		)
+		(instances
+			(project ""
+				(path "/6d7aefd8-fcb8-4935-b99c-c7045c3b702f"
+					(reference "V101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM339")
+		(at 147.32 124.46 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67a98eb8-655d-49a0-98f3-d7dd3f93be0d")
+		(property "Reference" "U?"
+			(at 147.32 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM339"
+			(at 147.32 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm139.pdf"
+			(at 148.59 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Differential Comparators, SOIC-14/TSSOP-14"
+			(at 147.32 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "C:\\Users\\chatelain\\Dropbox\\Privat-2023\\2023-11-11_DCC-EX-Shield\\xDuinoRail-Decoder\\kicad\\xDuinoRailShield\\__ltspice\\lm339_quad.lib"
+			(at 147.32 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "LM339"
+			(at 147.32 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 147.32 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=OUTb 2=OUTa 3=Vcc 4=INa- 5=INa+ 6=INb- 7=INb+ 8=INc- 9=INc+ 10=INd- 11=INd+ 12=GND 13=OUTd 14=OUTc"
+			(at 147.32 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "a7382d42-18b9-4e12-bdd4-7fb07391099c")
+		)
+		(pin "8"
+			(uuid "ab57fc51-eb89-44db-93be-0538628f58aa")
+		)
+		(pin "14"
+			(uuid "b05c4645-7c56-48e6-a397-b7912b0dbd36")
+		)
+		(pin "1"
+			(uuid "8bcb5837-b9ed-4158-863e-51dac6063ff0")
+		)
+		(pin "2"
+			(uuid "2f91b228-0be6-43a5-84ce-fb106cd9199a")
+		)
+		(pin "7"
+			(uuid "667f479c-3f1b-4bf1-a5bc-d36be8c741b3")
+		)
+		(pin "13"
+			(uuid "b52a2de1-583d-4e0c-be65-848e0e81a83a")
+		)
+		(pin "6"
+			(uuid "6b44899d-521b-491a-96b7-71c9003788e5")
+		)
+		(pin "4"
+			(uuid "89857622-4d91-4f37-a3db-bb02bf9b3ac5")
+		)
+		(pin "10"
+			(uuid "b6d03e42-4394-43ea-8cca-a47fe4b641f6")
+		)
+		(pin "5"
+			(uuid "689395ad-2d97-42cb-b05a-eb937e28aae2")
+		)
+		(pin "12"
+			(uuid "b9c3813b-ee84-4667-9b60-0b6afc0f2566")
+		)
+		(pin "11"
+			(uuid "87c0dfcc-dc3f-4f69-b3c2-f3274478efc8")
+		)
+		(pin "3"
+			(uuid "04b87b13-4054-41d9-9b44-0744a906e5a1")
+		)
+		(instances
+			(project "xDuinoRail-Breakout-RailcomDetect"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203/4ee38f16-391e-446c-bd4a-da776e23629a"
+					(reference "U?")
+					(unit 4)
+				)
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203/cddc5dbc-4519-43fa-a1d8-85355b2ecf1b"
+					(reference "U?")
+					(unit 4)
+				)
+			)
+			(project "central_railcom-detector-duo"
+				(path "/6d7aefd8-fcb8-4935-b99c-c7045c3b702f"
+					(reference "U102")
+					(unit 4)
+				)
+			)
+			(project "xDuinoRail-Arduino-RailcomDetect-Dev"
+				(path "/81b33966-136c-4d5d-8e55-9dddbbd3dbe5/be30761f-0228-4a45-9bf0-76f8e7dc5de2/cddc5dbc-4519-43fa-a1d8-85355b2ecf1b"
+					(reference "U302")
+					(unit 4)
+				)
+			)
+			(project "centrale-railcom-detector-duo_test"
+				(path "/e8f9fd83-27d4-40ee-a2c1-fd6356795d83/cddc5dbc-4519-43fa-a1d8-85355b2ecf1b"
+					(reference "U101")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:VSIN")
+		(at 74.93 93.98 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "720a6e08-a112-40cc-93dd-e793204efaa0")
+		(property "Reference" "V105"
+			(at 71.12 91.3101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VSIN"
+			(at 71.12 93.8501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Voltage source, sinusoidal"
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "dc=0 ampl=50mV f=250k td=0 theta=0 phase=0 ac=1"
+			(at 71.12 96.3901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Sim.Type" "SIN"
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "89d0a3e8-5b99-4078-9a6a-0598a7be90fe")
+		)
+		(pin "1"
+			(uuid "ba8559c3-05ab-4933-a774-3ba57e897d3b")
+		)
+		(instances
+			(project ""
+				(path "/6d7aefd8-fcb8-4935-b99c-c7045c3b702f"
+					(reference "V105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM339")
+		(at 77.47 49.53 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86822158-5384-46c0-af89-fb4dc0e31566")
+		(property "Reference" "U102"
+			(at 76.2 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LM339"
+			(at 76.2 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm139.pdf"
+			(at 78.74 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Differential Comparators, SOIC-14/TSSOP-14"
+			(at 77.47 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "C:\\Users\\chatelain\\Dropbox\\Privat-2023\\2023-11-11_DCC-EX-Shield\\xDuinoRail-Decoder\\kicad\\xDuinoRailShield\\__ltspice\\lm339_quad.lib"
+			(at 77.47 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "LM339"
+			(at 77.47 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 77.47 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=OUTb 2=OUTa 3=Vcc 4=INa- 5=INa+ 6=INb- 7=INb+ 8=INc- 9=INc+ 10=INd- 11=INd+ 12=GND 13=OUTd 14=OUTc"
+			(at 77.47 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "74ecaaab-e4e0-4daf-99b3-b46d9956aec1")
+		)
+		(pin "2"
+			(uuid "6ae8035f-7f20-4813-82e5-fec4e73fc7f7")
+		)
+		(pin "7"
+			(uuid "55ae144e-8bc2-45f8-a7d4-bd4e7b5f475e")
+		)
+		(pin "9"
+			(uuid "abb033b3-6e41-46bd-98ee-979f69eb883e")
+		)
+		(pin "4"
+			(uuid "e6b25848-9cac-4b96-9864-32d18f1a2fcf")
+		)
+		(pin "14"
+			(uuid "1ea2ecfb-14ce-4817-8c98-d09ed49a6826")
+		)
+		(pin "1"
+			(uuid "27c9797c-9c4a-4caa-9c03-5b62cc9c6957")
+		)
+		(pin "13"
+			(uuid "60133b11-c3be-4cc3-a986-a5fa362e0fe7")
+		)
+		(pin "3"
+			(uuid "78b94c63-cd93-496e-a67f-23fcc720db89")
+		)
+		(pin "10"
+			(uuid "b8345f81-bad5-4603-8060-d05b3fbfed09")
+		)
+		(pin "6"
+			(uuid "5f019c3f-0fdf-4492-9372-74a9760f18c6")
+		)
+		(pin "5"
+			(uuid "2bfd7285-0ba2-4cca-83eb-1cfc192de198")
+		)
+		(pin "11"
+			(uuid "53069506-61ad-4c6a-9fbf-e9850c2415d8")
+		)
+		(pin "8"
+			(uuid "83407241-20e5-4f1d-99be-d27e10315827")
+		)
+		(instances
+			(project ""
+				(path "/6d7aefd8-fcb8-4935-b99c-c7045c3b702f"
+					(reference "U102")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:0")
+		(at 74.93 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c00db63-1f28-4d8f-aba9-b2b53ac56763")
+		(property "Reference" "#GND0102"
+			(at 74.93 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "0"
+			(at 74.93 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
+			(at 74.93 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0V reference potential for simulation"
+			(at 74.93 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0f32bcd-9f05-4d08-b389-d374b4bf3bab")
+		)
+		(instances
+			(project "lm339_sim_test"
+				(path "/6d7aefd8-fcb8-4935-b99c-c7045c3b702f"
+					(reference "#GND0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:VDC")
+		(at 36.83 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c30916b2-79f4-4fb9-a2b4-91e22c3ade8d")
+		(property "Reference" "V103"
+			(at 40.64 65.9101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "18mV"
+			(at 40.64 68.4501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
+			(at 36.83 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Voltage source, DC"
+			(at 36.83 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 36.83 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "DC"
+			(at 36.83 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 36.83 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ba9d31c-cd32-420a-8f1b-e8693bc3ada8")
+		)
+		(pin "2"
+			(uuid "0e1798d7-2f51-4ed3-9b19-dccda11e8a7d")
+		)
+		(instances
+			(project "lm339_sim_test"
+				(path "/6d7aefd8-fcb8-4935-b99c-c7045c3b702f"
+					(reference "V103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 179.07 53.34 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ca6e7cfd-4a0d-4124-be8b-7081b75e404f")
+		(property "Reference" "R101"
+			(at 184.15 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 181.61 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 180.848 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 179.07 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OLI_ID" "10k_0603"
+			(at 179.07 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 179.07 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Frequency" ""
+			(at 179.07 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 179.07 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 179.07 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "rohs_cert_or_in_datasheet" ""
+			(at 179.07 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 179.07 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 179.07 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2d3c7ba-18b8-469b-b9b0-d7030dc43d9b")
+		)
+		(pin "2"
+			(uuid "12708bb2-186d-4703-9700-1d6803fe1fe3")
+		)
+		(instances
+			(project "lm339_sim_test"
+				(path "/6d7aefd8-fcb8-4935-b99c-c7045c3b702f"
+					(reference "R101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:VDC")
+		(at 26.67 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc10a63f-0928-4ae4-98ab-e8962af5cb16")
+		(property "Reference" "V102"
+			(at 30.48 44.3201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3"
+			(at 30.48 46.8601 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
+			(at 26.67 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Voltage source, DC"
+			(at 26.67 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 26.67 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "DC"
+			(at 26.67 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 26.67 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9ef81fd-7009-45ae-b4b9-6287b9ba9ce3")
+		)
+		(pin "2"
+			(uuid "6fac4b59-35f7-420e-8a01-dce047e74c32")
+		)
+		(instances
+			(project "lm339_sim_test"
+				(path "/6d7aefd8-fcb8-4935-b99c-c7045c3b702f"
+					(reference "V102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM339")
+		(at 147.32 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "db419ec1-163d-4025-ae71-dcef6567dadc")
+		(property "Reference" "U?"
+			(at 147.574 92.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM339"
+			(at 147.574 94.742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm139.pdf"
+			(at 148.59 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Differential Comparators, SOIC-14/TSSOP-14"
+			(at 147.32 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "C:\\Users\\chatelain\\Dropbox\\Privat-2023\\2023-11-11_DCC-EX-Shield\\xDuinoRail-Decoder\\kicad\\xDuinoRailShield\\__ltspice\\lm339_quad.lib"
+			(at 147.32 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "LM339"
+			(at 147.32 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 147.32 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=OUTb 2=OUTa 3=Vcc 4=INa- 5=INa+ 6=INb- 7=INb+ 8=INc- 9=INc+ 10=INd- 11=INd+ 12=GND 13=OUTd 14=OUTc"
+			(at 147.32 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "85987eab-cea1-4e4e-bfa7-35f4e2f86afa")
+		)
+		(pin "14"
+			(uuid "8e0413c3-312c-43bb-bbf5-b5f7e2bd55ec")
+		)
+		(pin "12"
+			(uuid "0e4e183e-d5dd-4171-b131-58bf2e537890")
+		)
+		(pin "5"
+			(uuid "669284c4-7a33-463a-a2a3-2621d82faa9a")
+		)
+		(pin "6"
+			(uuid "47e3868d-dc78-43a5-823f-76738cfd827c")
+		)
+		(pin "1"
+			(uuid "1722cf19-3ed1-457d-99ac-0634179b1a22")
+		)
+		(pin "8"
+			(uuid "4d410dbd-1023-4505-962a-690213db4590")
+		)
+		(pin "7"
+			(uuid "82af4532-933b-424f-b426-601d53ccfa86")
+		)
+		(pin "11"
+			(uuid "3e1dc9e1-8398-4091-8551-ca56dcc2d74e")
+		)
+		(pin "4"
+			(uuid "f13d4969-a3e7-402b-814b-b30ae79dc16a")
+		)
+		(pin "10"
+			(uuid "f0d16f91-a1a3-4c58-b24c-30fb01aa16ab")
+		)
+		(pin "9"
+			(uuid "3f087fdb-b203-4ed8-8091-9d06817cfafc")
+		)
+		(pin "13"
+			(uuid "a974ca45-d6c4-45b1-8e2b-bfe43ac0887f")
+		)
+		(pin "3"
+			(uuid "d163f2b9-dd82-45da-beb3-b215590f4868")
+		)
+		(instances
+			(project "xDuinoRail-Breakout-RailcomDetect"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203/4ee38f16-391e-446c-bd4a-da776e23629a"
+					(reference "U?")
+					(unit 1)
+				)
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203/cddc5dbc-4519-43fa-a1d8-85355b2ecf1b"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+			(project "central_railcom-detector-duo"
+				(path "/6d7aefd8-fcb8-4935-b99c-c7045c3b702f"
+					(reference "U102")
+					(unit 1)
+				)
+			)
+			(project "xDuinoRail-Arduino-RailcomDetect-Dev"
+				(path "/81b33966-136c-4d5d-8e55-9dddbbd3dbe5/be30761f-0228-4a45-9bf0-76f8e7dc5de2/cddc5dbc-4519-43fa-a1d8-85355b2ecf1b"
+					(reference "U302")
+					(unit 1)
+				)
+			)
+			(project "centrale-railcom-detector-duo_test"
+				(path "/e8f9fd83-27d4-40ee-a2c1-fd6356795d83/cddc5dbc-4519-43fa-a1d8-85355b2ecf1b"
+					(reference "U101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM339")
+		(at 147.32 148.59 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e577b770-e3dc-4094-a64a-11787d4dc653")
+		(property "Reference" "U?"
+			(at 147.32 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM339"
+			(at 147.32 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm139.pdf"
+			(at 148.59 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Differential Comparators, SOIC-14/TSSOP-14"
+			(at 147.32 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "C:\\Users\\chatelain\\Dropbox\\Privat-2023\\2023-11-11_DCC-EX-Shield\\xDuinoRail-Decoder\\kicad\\xDuinoRailShield\\__ltspice\\lm339_quad.lib"
+			(at 147.32 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "LM339"
+			(at 147.32 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 147.32 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=OUTb 2=OUTa 3=Vcc 4=INa- 5=INa+ 6=INb- 7=INb+ 8=INc- 9=INc+ 10=INd- 11=INd+ 12=GND 13=OUTd 14=OUTc"
+			(at 147.32 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "8f10139a-1f78-4441-8020-06420bb1641b")
+		)
+		(pin "8"
+			(uuid "ff4532f4-0949-441f-a56a-eb41fb920fb8")
+		)
+		(pin "14"
+			(uuid "2d29d0f9-fce8-4387-ae09-e123c5f78974")
+		)
+		(pin "1"
+			(uuid "8bcb5837-b9ed-4158-863e-51dac6063ff1")
+		)
+		(pin "2"
+			(uuid "2f91b228-0be6-43a5-84ce-fb106cd9199b")
+		)
+		(pin "7"
+			(uuid "667f479c-3f1b-4bf1-a5bc-d36be8c741b4")
+		)
+		(pin "13"
+			(uuid "485130af-0619-4989-bee7-68345b1b1215")
+		)
+		(pin "6"
+			(uuid "6b44899d-521b-491a-96b7-71c9003788e6")
+		)
+		(pin "4"
+			(uuid "89857622-4d91-4f37-a3db-bb02bf9b3ac6")
+		)
+		(pin "10"
+			(uuid "312c9d65-78c8-4d52-9108-8dd00a63422c")
+		)
+		(pin "5"
+			(uuid "689395ad-2d97-42cb-b05a-eb937e28aae3")
+		)
+		(pin "12"
+			(uuid "b9c3813b-ee84-4667-9b60-0b6afc0f2567")
+		)
+		(pin "11"
+			(uuid "0c9b4088-e0ab-4000-b8c1-644ed016e950")
+		)
+		(pin "3"
+			(uuid "04b87b13-4054-41d9-9b44-0744a906e5a2")
+		)
+		(instances
+			(project "xDuinoRail-Breakout-RailcomDetect"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203/4ee38f16-391e-446c-bd4a-da776e23629a"
+					(reference "U?")
+					(unit 3)
+				)
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203/cddc5dbc-4519-43fa-a1d8-85355b2ecf1b"
+					(reference "U?")
+					(unit 3)
+				)
+			)
+			(project "central_railcom-detector-duo"
+				(path "/6d7aefd8-fcb8-4935-b99c-c7045c3b702f"
+					(reference "U102")
+					(unit 3)
+				)
+			)
+			(project "xDuinoRail-Arduino-RailcomDetect-Dev"
+				(path "/81b33966-136c-4d5d-8e55-9dddbbd3dbe5/be30761f-0228-4a45-9bf0-76f8e7dc5de2/cddc5dbc-4519-43fa-a1d8-85355b2ecf1b"
+					(reference "U302")
+					(unit 3)
+				)
+			)
+			(project "centrale-railcom-detector-duo_test"
+				(path "/e8f9fd83-27d4-40ee-a2c1-fd6356795d83/cddc5dbc-4519-43fa-a1d8-85355b2ecf1b"
+					(reference "U101")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
